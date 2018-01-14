@@ -1,0 +1,152 @@
+html, body, .hg_viewport {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
+.hg_vbox {
+    /* previous syntax */
+    display: -webkit-box;
+    display:    -moz-box;
+    display:         box;
+
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+
+    /* current syntax */
+    display: -webkit-flex;
+    display:    -moz-flex;
+    display:     -ms-flex;
+    display:         flex;
+
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.hg_hbox {
+    /* previous syntax */
+    display: -webkit-box;
+    display:    -moz-box;
+    display:     -ms-box;
+    display:         box;
+
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-box-orient: horizontal;
+    box-orient: horizontal;
+
+    /* current syntax */
+    display: -webkit-flex;
+    display:    -moz-flex;
+    display:     -ms-flex;
+    display:         flex;
+
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.hg_size1 {
+    /* previous syntax */
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+
+    /* current syntax */
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.hg_size2 {
+    /* previous syntax */
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -ms-box-flex: 2;
+    box-flex: 2;
+
+    /* current syntax */
+    -webkit-flex: 2;
+    -moz-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+.hg_size3 {
+    /* previous syntax */
+    -webkit-box-flex: 3;
+    -moz-box-flex: 3;
+    -ms-box-flex: 3;
+    box-flex: 3;
+
+    /* current syntax */
+    -webkit-flex: 3;
+    -moz-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+.hg_size4 {
+    /* previous syntax */
+    -webkit-box-flex: 4;
+    -moz-box-flex: 4;
+    -ms-box-flex: 4;
+    box-flex: 4;
+
+    /* current syntax */
+    -webkit-flex: 4;
+    -moz-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+}
+.hg_size5 {
+    /* previous syntax */
+    -webkit-box-flex: 5;
+    -moz-box-flex: 5;
+    -ms-box-flex: 5;
+    box-flex: 5;
+
+    /* current syntax */
+    -webkit-flex: 5;
+    -moz-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+}
+/*region COMPOSITE LAYOUT*/
+.hg_breakword { word-wrap: break-word; }
+.hg_breakWord {word-wrap: break-word;}
+.hg_breakall {word-break:break-all;}
+.hg_nodecoration {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.hg_minWidth0 {min-width: 0;}
+.hg_minHeight0 {min-height:0;}
+.hg_overflowHidden {overflow:hidden;}
+.hg_absolute {position:absolute;}
+.hg_relative {position:relative;}
+.hg_floatLeft {float:left;}
+.hg_floatleft {float:left;}
+.hg_overlay {position:absolute;}
+/* endregion */
+/*region TESTING PURPOSE*/
+.hg_border {
+    border: 1px solid black;
+    padding: 0.1em;
+    margin: 0.1em;
+    border-radius: 0.1em;
+    box-sizing: border-box;
+}
+.hg_bgGreen {
+    background-color: lightgreen;
+}
+.hg_bgRed {
+    background-color: red;
+}
+.hg_bgBlue {
+    background-color: lightblue;
+}
+/*endregion*/
